@@ -2,7 +2,7 @@
   "name": "projetochat",
   "version": "1.0.0",
   "description": "projeto de um chat para aula de cração de sites 3",
-  "main": "server.js",
+  "main": "./bin/server.js",
   "scripts": {
     "start": "node ./bin/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
