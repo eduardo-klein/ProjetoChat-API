@@ -4,7 +4,7 @@
   "description": "projeto de um chat para aula de cração de sites 3",
   "main": "/bin/server.js",
   "scripts": {
-    "start": "node ./bin/server.js",
+    "start": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
