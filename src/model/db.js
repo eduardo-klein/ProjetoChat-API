@@ -4,10 +4,10 @@ let singleton;
 async function connect(){
     if (singleton) return singleton;
 
-    const client = new MongoClient(process.env.DB_HOST, { useNewUrlParser: true, useUnifiedTopology: true});
+    const client = new MongoClient("mongodb+srv://Klein:senhamongodb@chat.nfqam6c.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true});
     await client.connect();
 
-    singleton = client.db(process.env.DB_DATABSE);
+    singleton = client.db("Chat2");
     return singleton;
 
 }
