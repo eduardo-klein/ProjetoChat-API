@@ -6,8 +6,8 @@ async function connect(){
     const host = "mongodb+srv://Klein:senhamongodb@chat.nfqam6c.mongodb.net/?retryWrites=true&w=majority";
     const client = new MongoClient(host, { useNewUrlParser: true, useUnifiedTopology: true});
     await client.connect();
-
-    singleton = client.db(process.env.DB_DATABSE);
+    const debe = "Chat2"
+    singleton = client.db(debe);
     return singleton;
 
 }
