@@ -1,0 +1,26 @@
+{
+  "name": "projetochat",
+  "version": "1.0.0",
+  "description": "projeto de um chat para aula de cração de sites 3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardo-klein/ProjetoChat.git"
+  },
+  "author": "Eduardo Klein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardo-klein/ProjetoChat/issues"
+  },
+  "homepage": "https://github.com/eduardo-klein/ProjetoChat#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.7.0"
+  }
+}
